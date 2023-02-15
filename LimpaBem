@@ -1,0 +1,35 @@
+Empresa Limpa Bem
+
+Tarefas:
+  - Acompanhamento e controle dos serviços oferecidos;
+  - Agendamento de serviços;
+  
+Tipos de serviços:
+  - limpeza profunda - R$250,00;
+  - limpeza simples - R$100,00;
+  
+Tipos de funcionários:
+  - Gerentes
+    + Decidem valores dos serviços;
+    + Decidem quais serviços estão disponíveis;
+    
+  - Atendentes
+    + Cadastram situação dos atendimentos;
+    + Consultam situação dos atendimentos;
+    + Alteram situação dos atendimentos; 
+    + Detalhar os itens: 
+      * O serviço escolhido;
+      * O atendente que fez o cadastro;
+      * O helper que executou o serviço;
+      * O valor pago pelo atendimento (gerentes podem oferecer até 10% de desconto);
+      * A forma de pagamento do cliente;
+      * A data e o horário que foi cadastrado o atendimento;
+      * A data e o horário que vai ocorrer a limpeza;
+      * A situação (pendente, realizado ou cancelado);
+      * Os dados do cliente (nome, telefone e endereço);
+    + Retornar uma lista com todos os atendimentos do dia e o valor total somado;
+    
+  - Helpers
+    + Executam os serviços;
+    
+
